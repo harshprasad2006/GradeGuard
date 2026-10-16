@@ -1,0 +1,290 @@
+{
+  "Random Forest": {
+    "overall": {
+      "accuracy": 0.7593220338983051,
+      "macro_precision": 0.7067006282633175,
+      "macro_recall": 0.7011031440929364,
+      "macro_f1": 0.7028204805191783,
+      "weighted_f1": 0.7597107407754103,
+      "roc_auc_ovr": 0.878403235516363,
+      "latency_per_sample_ms": 0.05435512564276571
+    },
+    "per_class": {
+      "Dropout": {
+        "precision": 0.8031496062992126,
+        "recall": 0.7183098591549296,
+        "f1_score": 0.758364312267658,
+        "support": 284
+      },
+      "Enrolled": {
+        "precision": 0.47928994082840237,
+        "recall": 0.5094339622641509,
+        "f1_score": 0.49390243902439024,
+        "support": 159
+      },
+      "Graduate": {
+        "precision": 0.8376623376623377,
+        "recall": 0.8755656108597285,
+        "f1_score": 0.8561946902654868,
+        "support": 442
+      }
+    },
+    "confusion_matrix": [
+      [
+        204,
+        46,
+        34
+      ],
+      [
+        37,
+        81,
+        41
+      ],
+      [
+        13,
+        42,
+        387
+      ]
+    ]
+  },
+  "Logistic Regression": {
+    "overall": {
+      "accuracy": 0.7367231638418079,
+      "macro_precision": 0.709093752443506,
+      "macro_recall": 0.7131167675203254,
+      "macro_f1": 0.7000981359518628,
+      "weighted_f1": 0.7499091853306344,
+      "roc_auc_ovr": 0.8848578082090658,
+      "latency_per_sample_ms": 0.0096092116361284
+    },
+    "per_class": {
+      "Dropout": {
+        "precision": 0.8333333333333334,
+        "recall": 0.6866197183098591,
+        "f1_score": 0.752895752895753,
+        "support": 284
+      },
+      "Enrolled": {
+        "precision": 0.42448979591836733,
+        "recall": 0.6540880503144654,
+        "f1_score": 0.5148514851485149,
+        "support": 159
+      },
+      "Graduate": {
+        "precision": 0.8694581280788177,
+        "recall": 0.7986425339366516,
+        "f1_score": 0.8325471698113207,
+        "support": 442
+      }
+    },
+    "confusion_matrix": [
+      [
+        195,
+        66,
+        23
+      ],
+      [
+        25,
+        104,
+        30
+      ],
+      [
+        14,
+        75,
+        353
+      ]
+    ]
+  },
+  "Support Vector Machine": {
+    "overall": {
+      "accuracy": 0.727683615819209,
+      "macro_precision": 0.6950274850610797,
+      "macro_recall": 0.6955061568362909,
+      "macro_f1": 0.6873690082454701,
+      "weighted_f1": 0.7382042400235569,
+      "roc_auc_ovr": 0.88373842515434,
+      "latency_per_sample_ms": 0.2402149351303187
+    },
+    "per_class": {
+      "Dropout": {
+        "precision": 0.8247863247863247,
+        "recall": 0.6795774647887324,
+        "f1_score": 0.7451737451737451,
+        "support": 284
+      },
+      "Enrolled": {
+        "precision": 0.42105263157894735,
+        "recall": 0.6037735849056604,
+        "f1_score": 0.49612403100775193,
+        "support": 159
+      },
+      "Graduate": {
+        "precision": 0.8392434988179669,
+        "recall": 0.8031674208144797,
+        "f1_score": 0.8208092485549133,
+        "support": 442
+      }
+    },
+    "confusion_matrix": [
+      [
+        193,
+        60,
+        31
+      ],
+      [
+        26,
+        96,
+        37
+      ],
+      [
+        15,
+        72,
+        355
+      ]
+    ]
+  },
+  "Decision Tree": {
+    "overall": {
+      "accuracy": 0.6768361581920904,
+      "macro_precision": 0.6763171739650597,
+      "macro_recall": 0.6639165890740824,
+      "macro_f1": 0.6480257393026041,
+      "weighted_f1": 0.6977228190744658,
+      "roc_auc_ovr": 0.8296883089492417,
+      "latency_per_sample_ms": 0.009194605768063647
+    },
+    "per_class": {
+      "Dropout": {
+        "precision": 0.8398058252427184,
+        "recall": 0.6091549295774648,
+        "f1_score": 0.7061224489795919,
+        "support": 284
+      },
+      "Enrolled": {
+        "precision": 0.35494880546075086,
+        "recall": 0.6540880503144654,
+        "f1_score": 0.46017699115044247,
+        "support": 159
+      },
+      "Graduate": {
+        "precision": 0.8341968911917098,
+        "recall": 0.7285067873303167,
+        "f1_score": 0.7777777777777778,
+        "support": 442
+      }
+    },
+    "confusion_matrix": [
+      [
+        173,
+        79,
+        32
+      ],
+      [
+        23,
+        104,
+        32
+      ],
+      [
+        10,
+        110,
+        322
+      ]
+    ]
+  },
+  "K-Nearest Neighbours": {
+    "overall": {
+      "accuracy": 0.6937853107344633,
+      "macro_precision": 0.6294123265754471,
+      "macro_recall": 0.5977956491235946,
+      "macro_f1": 0.6049905526704905,
+      "weighted_f1": 0.6773866352769029,
+      "roc_auc_ovr": 0.7978927239918185,
+      "latency_per_sample_ms": 0.14618965192029706
+    },
+    "per_class": {
+      "Dropout": {
+        "precision": 0.7404255319148936,
+        "recall": 0.6126760563380281,
+        "f1_score": 0.6705202312138728,
+        "support": 284
+      },
+      "Enrolled": {
+        "precision": 0.41818181818181815,
+        "recall": 0.2893081761006289,
+        "f1_score": 0.3420074349442379,
+        "support": 159
+      },
+      "Graduate": {
+        "precision": 0.7296296296296296,
+        "recall": 0.8914027149321267,
+        "f1_score": 0.8024439918533605,
+        "support": 442
+      }
+    },
+    "confusion_matrix": [
+      [
+        174,
+        42,
+        68
+      ],
+      [
+        35,
+        46,
+        78
+      ],
+      [
+        26,
+        22,
+        394
+      ]
+    ]
+  },
+  "Gaussian Naive Bayes": {
+    "overall": {
+      "accuracy": 0.2576271186440678,
+      "macro_precision": 0.4821678555573799,
+      "macro_recall": 0.40534279221340547,
+      "macro_f1": 0.2349634966263977,
+      "weighted_f1": 0.1839744609210786,
+      "roc_auc_ovr": 0.6910857671038011,
+      "latency_per_sample_ms": 0.013839592367915784
+    },
+    "per_class": {
+      "Dropout": {
+        "precision": 0.5785123966942148,
+        "recall": 0.24647887323943662,
+        "f1_score": 0.345679012345679,
+        "support": 284
+      },
+      "Enrolled": {
+        "precision": 0.20132450331125828,
+        "recall": 0.9559748427672956,
+        "f1_score": 0.33260393873085337,
+        "support": 159
+      },
+      "Graduate": {
+        "precision": 0.6666666666666666,
+        "recall": 0.013574660633484163,
+        "f1_score": 0.026607538802660754,
+        "support": 442
+      }
+    },
+    "confusion_matrix": [
+      [
+        70,
+        212,
+        2
+      ],
+      [
+        6,
+        152,
+        1
+      ],
+      [
+        45,
+        391,
+        6
+      ]
+    ]
+  }
+}

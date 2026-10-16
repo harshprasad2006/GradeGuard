@@ -1,0 +1,19 @@
+Model,Class,Precision,Recall,F1_Score,Support
+Random Forest,Dropout,0.8031,0.7183,0.7584,284
+Random Forest,Enrolled,0.4793,0.5094,0.4939,159
+Random Forest,Graduate,0.8377,0.8756,0.8562,442
+Logistic Regression,Dropout,0.8333,0.6866,0.7529,284
+Logistic Regression,Enrolled,0.4245,0.6541,0.5149,159
+Logistic Regression,Graduate,0.8695,0.7986,0.8325,442
+Support Vector Machine,Dropout,0.8248,0.6796,0.7452,284
+Support Vector Machine,Enrolled,0.4211,0.6038,0.4961,159
+Support Vector Machine,Graduate,0.8392,0.8032,0.8208,442
+Decision Tree,Dropout,0.8398,0.6092,0.7061,284
+Decision Tree,Enrolled,0.3549,0.6541,0.4602,159
+Decision Tree,Graduate,0.8342,0.7285,0.7778,442
+K-Nearest Neighbours,Dropout,0.7404,0.6127,0.6705,284
+K-Nearest Neighbours,Enrolled,0.4182,0.2893,0.342,159
+K-Nearest Neighbours,Graduate,0.7296,0.8914,0.8024,442
+Gaussian Naive Bayes,Dropout,0.5785,0.2465,0.3457,284
+Gaussian Naive Bayes,Enrolled,0.2013,0.956,0.3326,159
+Gaussian Naive Bayes,Graduate,0.6667,0.0136,0.0266,442

@@ -1,0 +1,352 @@
+{
+  "dataset_name": "Predict Students' Dropout and Academic Success",
+  "dataset_id": 697,
+  "doi": "10.24432/C5MC89",
+  "random_state": 42,
+  "test_size": 0.2,
+  "total_instances": 4424,
+  "total_features": 36,
+  "target_column": "Target",
+  "binary_features": [
+    "Daytime/evening attendance",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "International"
+  ],
+  "numerical_features": [
+    "Application order",
+    "Previous qualification (grade)",
+    "Admission grade",
+    "Age at enrollment",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Curricular units 2nd sem (credited)",
+    "Curricular units 2nd sem (enrolled)",
+    "Curricular units 2nd sem (evaluations)",
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 2nd sem (grade)",
+    "Curricular units 2nd sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP"
+  ],
+  "nominal_categorical_features": [
+    "Marital Status",
+    "Application mode",
+    "Course",
+    "Previous qualification",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation"
+  ],
+  "all_features_in_order": [
+    "Marital Status",
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Previous qualification (grade)",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Admission grade",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "Age at enrollment",
+    "International",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Curricular units 2nd sem (credited)",
+    "Curricular units 2nd sem (enrolled)",
+    "Curricular units 2nd sem (evaluations)",
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 2nd sem (grade)",
+    "Curricular units 2nd sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP"
+  ],
+  "class_labels": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "target_encoding": {
+    "Dropout": 0,
+    "Enrolled": 1,
+    "Graduate": 2
+  },
+  "validation_report": {
+    "rows": 4424,
+    "columns": 37,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "class_distribution": {
+      "Graduate": 2209,
+      "Dropout": 1421,
+      "Enrolled": 794
+    },
+    "issues": [],
+    "is_valid": true
+  },
+  "human_readable_labels": {
+    "Marital Status": {
+      "1": "Single",
+      "2": "Married",
+      "3": "Widower",
+      "4": "Divorced",
+      "5": "Facto Union",
+      "6": "Legally Separated"
+    },
+    "Application mode": {
+      "1": "1st phase - general contingent",
+      "2": "Ordinance No. 612/93",
+      "5": "1st phase - special contingent (Azores Island)",
+      "7": "Holders of other higher courses",
+      "10": "Ordinance No. 854-B/99",
+      "15": "International student (bachelor)",
+      "16": "1st phase - special contingent (Madeira Island)",
+      "17": "2nd phase - general contingent",
+      "18": "3rd phase - general contingent",
+      "26": "Ordinance No. 533-A/99, item b2 (Different Plan)",
+      "27": "Ordinance No. 533-A/99, item b3 (Other Institution)",
+      "39": "Over 23 years old",
+      "42": "Transfer",
+      "43": "Change of course",
+      "44": "Technological specialization diploma holders",
+      "51": "Change of institution/course",
+      "53": "Short cycle diploma holders",
+      "57": "Change of institution/course (International)"
+    },
+    "Course": {
+      "33": "Biofuel Production Technologies",
+      "171": "Animation and Multimedia Design",
+      "8014": "Social Service (evening attendance)",
+      "9003": "Agronomy",
+      "9070": "Communication Design",
+      "9085": "Veterinary Nursing",
+      "9119": "Informatics Engineering",
+      "9130": "Equinculture",
+      "9147": "Management",
+      "9238": "Social Service",
+      "9254": "Tourism",
+      "9500": "Nursing",
+      "9556": "Oral Hygiene",
+      "9670": "Advertising and Marketing Management",
+      "9773": "Journalism and Communication",
+      "9853": "Basic Education",
+      "9991": "Management (evening attendance)"
+    },
+    "Daytime/evening attendance": {
+      "1": "Daytime",
+      "0": "Evening"
+    },
+    "Previous qualification": {
+      "1": "Secondary education",
+      "2": "Higher education - bachelor's degree",
+      "3": "Higher education - degree",
+      "4": "Higher education - master's",
+      "5": "Higher education - doctorate",
+      "6": "Frequency of higher education",
+      "9": "12th year of schooling - not completed",
+      "10": "11th year of schooling - not completed",
+      "12": "Other - 11th year of schooling",
+      "14": "10th year of schooling",
+      "15": "10th year of schooling - not completed",
+      "19": "Basic education 3rd cycle (9th/10th/11th year) or equiv.",
+      "38": "Basic education 2nd cycle (6th/7th/8th year) or equiv.",
+      "39": "Technological specialization course",
+      "40": "Higher education - degree (1st cycle)",
+      "42": "Professional higher technical course",
+      "43": "Higher education - master (2nd cycle)"
+    },
+    "Nacionality": {
+      "1": "Portuguese",
+      "2": "German",
+      "6": "Spanish",
+      "11": "Italian",
+      "13": "Dutch",
+      "14": "English",
+      "17": "Lithuanian",
+      "21": "Angolan",
+      "22": "Cape Verdean",
+      "24": "Guinean",
+      "25": "Mozambican",
+      "26": "Santomean",
+      "32": "Turkish",
+      "41": "Brazilian",
+      "62": "Romanian",
+      "100": "Moldova (Republic of)",
+      "101": "Mexican",
+      "103": "Ukrainian",
+      "105": "Russian",
+      "108": "Cuban",
+      "109": "Colombian"
+    },
+    "Displaced": {
+      "1": "Yes",
+      "0": "No"
+    },
+    "Educational special needs": {
+      "1": "Yes",
+      "0": "No"
+    },
+    "Debtor": {
+      "1": "Yes",
+      "0": "No"
+    },
+    "Tuition fees up to date": {
+      "1": "Yes",
+      "0": "No"
+    },
+    "Gender": {
+      "1": "Male",
+      "0": "Female"
+    },
+    "Scholarship holder": {
+      "1": "Yes",
+      "0": "No"
+    },
+    "International": {
+      "1": "Yes",
+      "0": "No"
+    }
+  },
+  "feature_ranges": {
+    "Application order": {
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 1.7278481012658229,
+      "median": 1.0
+    },
+    "Previous qualification (grade)": {
+      "min": 95.0,
+      "max": 190.0,
+      "mean": 132.6133137432188,
+      "median": 133.1
+    },
+    "Admission grade": {
+      "min": 95.0,
+      "max": 190.0,
+      "mean": 126.97811934900544,
+      "median": 126.1
+    },
+    "Age at enrollment": {
+      "min": 17.0,
+      "max": 70.0,
+      "mean": 23.265144665461122,
+      "median": 20.0
+    },
+    "Curricular units 1st sem (credited)": {
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 0.7099909584086799,
+      "median": 0.0
+    },
+    "Curricular units 1st sem (enrolled)": {
+      "min": 0.0,
+      "max": 26.0,
+      "mean": 6.2705696202531644,
+      "median": 6.0
+    },
+    "Curricular units 1st sem (evaluations)": {
+      "min": 0.0,
+      "max": 45.0,
+      "mean": 8.299050632911392,
+      "median": 8.0
+    },
+    "Curricular units 1st sem (approved)": {
+      "min": 0.0,
+      "max": 26.0,
+      "mean": 4.706600361663653,
+      "median": 5.0
+    },
+    "Curricular units 1st sem (grade)": {
+      "min": 0.0,
+      "max": 18.875,
+      "mean": 10.640821575178572,
+      "median": 12.28571429
+    },
+    "Curricular units 1st sem (without evaluations)": {
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.13765822784810128,
+      "median": 0.0
+    },
+    "Curricular units 2nd sem (credited)": {
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 0.5418173598553345,
+      "median": 0.0
+    },
+    "Curricular units 2nd sem (enrolled)": {
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 6.232142857142857,
+      "median": 6.0
+    },
+    "Curricular units 2nd sem (evaluations)": {
+      "min": 0.0,
+      "max": 33.0,
+      "mean": 8.063291139240507,
+      "median": 8.0
+    },
+    "Curricular units 2nd sem (approved)": {
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 4.435804701627487,
+      "median": 5.0
+    },
+    "Curricular units 2nd sem (grade)": {
+      "min": 0.0,
+      "max": 18.57142857,
+      "mean": 10.230205722719258,
+      "median": 12.2
+    },
+    "Curricular units 2nd sem (without evaluations)": {
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.15031645569620253,
+      "median": 0.0
+    },
+    "Unemployment rate": {
+      "min": 7.6,
+      "max": 16.2,
+      "mean": 11.56613924050633,
+      "median": 11.1
+    },
+    "Inflation rate": {
+      "min": -0.8,
+      "max": 3.7,
+      "mean": 1.228028933092224,
+      "median": 1.4
+    },
+    "GDP": {
+      "min": -4.06,
+      "max": 3.51,
+      "mean": 0.001968806509945778,
+      "median": 0.32
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Model,Accuracy,Macro_Precision,Macro_Recall,Macro_F1,Weighted_F1,ROC_AUC_OvR,Latency_Per_Sample_ms
+Random Forest,0.7593,0.7067,0.7011,0.7028,0.7597,0.8784,0.054
+Logistic Regression,0.7367,0.7091,0.7131,0.7001,0.7499,0.8849,0.01
+Support Vector Machine,0.7277,0.695,0.6955,0.6874,0.7382,0.8837,0.24
+Decision Tree,0.6768,0.6763,0.6639,0.648,0.6977,0.8297,0.009
+K-Nearest Neighbours,0.6938,0.6294,0.5978,0.605,0.6774,0.7979,0.146
+Gaussian Naive Bayes,0.2576,0.4822,0.4053,0.235,0.184,0.6911,0.014

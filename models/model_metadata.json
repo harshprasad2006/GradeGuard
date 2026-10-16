@@ -1,0 +1,94 @@
+{
+  "best_model_name": "Random Forest",
+  "selection_metric": "CV Macro F1 (Stratified 5-Fold)",
+  "best_cv_macro_f1": 0.7263,
+  "best_cv_accuracy": 0.7773,
+  "best_params": {
+    "model__class_weight": "balanced",
+    "model__max_depth": null,
+    "model__min_samples_split": 2,
+    "model__n_estimators": 100
+  },
+  "all_models": [
+    "Logistic Regression",
+    "K-Nearest Neighbours",
+    "Decision Tree",
+    "Random Forest",
+    "Support Vector Machine",
+    "Gaussian Naive Bayes"
+  ],
+  "cv_results": [
+    {
+      "Model": "Logistic Regression",
+      "CV_Macro_F1_Mean": 0.7174,
+      "CV_Macro_F1_Std": 0.0182,
+      "CV_Accuracy_Mean": 0.7578,
+      "CV_Accuracy_Std": 0.0157,
+      "CV_Weighted_F1_Mean": 0.7659,
+      "CV_Weighted_F1_Std": 0.014,
+      "Fit_Time_Seconds": 7.36,
+      "Best_Params": "{'model__C': 0.1, 'model__class_weight': 'balanced', 'model__solver': 'lbfgs'}",
+      "Saved_Path": "models\\logistic_regression.joblib"
+    },
+    {
+      "Model": "K-Nearest Neighbours",
+      "CV_Macro_F1_Mean": 0.6222,
+      "CV_Macro_F1_Std": 0.0207,
+      "CV_Accuracy_Mean": 0.7059,
+      "CV_Accuracy_Std": 0.0155,
+      "CV_Weighted_F1_Mean": 0.6914,
+      "CV_Weighted_F1_Std": 0.0179,
+      "Fit_Time_Seconds": 6.29,
+      "Best_Params": "{'model__metric': 'manhattan', 'model__n_neighbors': 5, 'model__weights': 'uniform'}",
+      "Saved_Path": "models\\k_nearest_neighbours.joblib"
+    },
+    {
+      "Model": "Decision Tree",
+      "CV_Macro_F1_Mean": 0.6715,
+      "CV_Macro_F1_Std": 0.0125,
+      "CV_Accuracy_Mean": 0.7058,
+      "CV_Accuracy_Std": 0.0216,
+      "CV_Weighted_F1_Mean": 0.7213,
+      "CV_Weighted_F1_Std": 0.016,
+      "Fit_Time_Seconds": 4.42,
+      "Best_Params": "{'model__class_weight': 'balanced', 'model__max_depth': 5, 'model__min_samples_split': 2}",
+      "Saved_Path": "models\\decision_tree.joblib"
+    },
+    {
+      "Model": "Random Forest",
+      "CV_Macro_F1_Mean": 0.7263,
+      "CV_Macro_F1_Std": 0.0194,
+      "CV_Accuracy_Mean": 0.7773,
+      "CV_Accuracy_Std": 0.015,
+      "CV_Weighted_F1_Mean": 0.7758,
+      "CV_Weighted_F1_Std": 0.0156,
+      "Fit_Time_Seconds": 30.3,
+      "Best_Params": "{'model__class_weight': 'balanced', 'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 100}",
+      "Saved_Path": "models\\random_forest.joblib"
+    },
+    {
+      "Model": "Support Vector Machine",
+      "CV_Macro_F1_Mean": 0.7134,
+      "CV_Macro_F1_Std": 0.0168,
+      "CV_Accuracy_Mean": 0.7536,
+      "CV_Accuracy_Std": 0.0136,
+      "CV_Weighted_F1_Mean": 0.7613,
+      "CV_Weighted_F1_Std": 0.0143,
+      "Fit_Time_Seconds": 141.89,
+      "Best_Params": "{'model__C': 1.0, 'model__class_weight': 'balanced', 'model__kernel': 'rbf'}",
+      "Saved_Path": "models\\support_vector_machine.joblib"
+    },
+    {
+      "Model": "Gaussian Naive Bayes",
+      "CV_Macro_F1_Mean": 0.2383,
+      "CV_Macro_F1_Std": 0.016,
+      "CV_Accuracy_Mean": 0.2563,
+      "CV_Accuracy_Std": 0.0156,
+      "CV_Weighted_F1_Mean": 0.1895,
+      "CV_Weighted_F1_Std": 0.016,
+      "Fit_Time_Seconds": 0.49,
+      "Best_Params": "{'model__var_smoothing': 1e-06}",
+      "Saved_Path": "models\\gaussian_naive_bayes.joblib"
+    }
+  ]
+}

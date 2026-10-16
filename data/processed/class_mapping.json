@@ -1,0 +1,12 @@
+{
+  "target_to_int": {
+    "Dropout": 0,
+    "Enrolled": 1,
+    "Graduate": 2
+  },
+  "int_to_target": {
+    "0": "Dropout",
+    "1": "Enrolled",
+    "2": "Graduate"
+  }
+}
