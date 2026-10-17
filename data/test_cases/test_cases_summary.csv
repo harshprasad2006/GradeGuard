@@ -1,0 +1,6 @@
+Case,Description,Ground_Truth,Predicted,Status,Confidence,Prob_Dropout,Prob_Enrolled,Prob_Graduate,CSV_Path
+Case_1_High_Performer_Graduate,"High Academic Performer (6/6 units approved, High GPA)",Graduate,Graduate,MATCH (CORRECT),79.0%,0.11,0.1,0.79,data\test_cases\Case_1_High_Performer_Graduate.csv
+Case_2_Severe_Dropout_Risk,"Severe Credit Deficit (0 units approved, Administrative flags)",Dropout,Dropout,MATCH (CORRECT),70.0%,0.7,0.24,0.06,data\test_cases\Case_2_Severe_Dropout_Risk.csv
+Case_3_Active_Enrolled_Student,"Active Moderate Progression (3-4 units approved, In Progress)",Enrolled,Enrolled,MATCH (CORRECT),60.0%,0.2,0.6,0.2,data\test_cases\Case_3_Active_Enrolled_Student.csv
+Case_4_Sudden_Second_Sem_Slump,Sem 1 Success but Sem 2 Collapse (Dropout Risk),Dropout,Dropout,MATCH (CORRECT),67.0%,0.67,0.23,0.1,data\test_cases\Case_4_Sudden_Second_Sem_Slump.csv
+Case_5_Mature_Student_Success,Mature Student (Age 25+) with Good Completion,Graduate,Dropout,MISMATCH,38.0%,0.38,0.25,0.37,data\test_cases\Case_5_Mature_Student_Success.csv
