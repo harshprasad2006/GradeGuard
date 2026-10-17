@@ -7,7 +7,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.58.0-FF4B4B.svg)](https://streamlit.io/)
 [![Dataset](https://img.shields.io/badge/UCI%20Repository-ID%20697-green.svg)](https://doi.org/10.24432/C5MC89)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Tests](https://img.shields.io/badge/pytest-14%20passed-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/pytest-58%20passed-brightgreen.svg)]()
 
 ---
 
